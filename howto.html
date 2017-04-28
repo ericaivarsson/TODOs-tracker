@@ -2,56 +2,62 @@
 <html>
 	<head>
 		<title>TODOs tracker</title>
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-  	<link rel="stylesheet" href="css/style.css">
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> 
+	-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
 		
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Todo-Liste</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="Index.html">Start</a></li>
-			<li class="active"><a href="howto.html">Howto</a></li>
-            <li><a href="impressum.html">Impressum</a></li>
-          </ul>
-        </div>
-      </div>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+        <header class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapseable">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                <a class="navbar-brand" href="#">
+                    TODOs
+                  </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapseable">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Index.html">Start</a></li>
+                    <li class = "active"><a href="howto.html">Howto</a></li>
+                    <li><a href="impressum.html">Impressum</a></li>
+                </ul>
+            </div>
+        </header>
     </nav>
+
 
     <div class="container">
 
       <div class="content">
-   	   		<p class="text-center"><h1>Hello, Todo-Maker!</h1>
-    			This site will show you the steps to make your own todo.
+   	   		<p class="text-center"><h1>Hello, Todo-trackers!</h1>
+    			Let me help you with the steps for creating your own TODOs.
 			</p>
     	
     		<p class="text-center"><h3>Step One</h3>
-    			Move to "MakeTodo" and open it.
+    			Click on add ToDo.
     		</p>    	
     	
     		<p class="text-center"><h3>Step Two</h3>
-    			Fill the name of your todo, the deadline of your todo,<br />
-    			 a description and the curent state.
+    			Fill up the name and deadline for your TODO
     		 </p>
     	
     		 <p class="text-center"><h3>Step Three</h3>
-    			 Submit and magic happends. If you want to change the infos,<br />
-    			 then click edit on the front page.
+    			 Submit and never forget.
     		 </p>
 		</div>
 	</div>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  
   </body>
 </html>
